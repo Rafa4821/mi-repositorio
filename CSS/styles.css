@@ -1,0 +1,160 @@
+
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: gray;
+  margin: 0;
+}
+
+   /* header*/
+
+header  ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  justify-content: space-evenly;
+  justify-content: center ;
+    color: white;
+    list-style: none;
+}
+
+header h1 {
+    font-size: medium;
+    text-align: justify;
+}
+
+.Logo {
+
+    width: 160px;
+    height: 100px;
+}
+
+header {
+    background-color: #292929;
+    display: flex;
+    
+}
+/* header*/
+
+/* Imagenes Index (Carrousel)*/
+section h1 {
+font-weight: lighter;
+}
+
+    .foto1,
+    .foto2,
+    .foto3 {
+    width: 250px;
+    height: 200px;
+  
+} 
+
+.Carrousel {
+padding: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+align-items: center;
+}
+
+.texto6 p{
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+/* Imagenes Index (Carrousel)*/
+
+/* Imagenes Productos Destacados */
+.Inmueble1,
+  .Inmueble2,
+  .Inmueble3 { 
+    width: 300px;
+    height: 200px;
+  }
+
+  .DestacadosT {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 100px;
+  }
+
+
+    .Introductorio {
+    text-align: justify;
+  }
+
+  .Introductorio {
+    color: white;
+  }
+/* Imagenes Productos Destacados */
+
+/* Quienes Somos */
+ .quienessomos {
+    width: 600px;
+    height: 250px;
+    
+ }
+ .quienessomosbl {
+  display: flex;
+ }
+
+.qsp {
+    text-align: center;
+}
+/* Quienes Somos */
+
+/* Imagenes de Display  */
+.DisplayInmueble1,
+.DisplayInmueble2,
+.DisplayInmueble3,
+.DisplayInmueble4 {
+    width: 300px;
+    height: 200px;
+}
+
+.display1 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 200px;
+}
+/* Imagenes de Display  */
+
+/* Titulo Servicios  */
+.titservicio {
+    text-align: center;
+}
+/* Titulo Servicios  */
+
+
+/* Footer */
+footer {
+    background-color: #416787;
+    color: white;
+    text-align: left;
+}
+
+.FaceIcon {
+    width: 20px;
+    height: 20px; 
+    margin-left: 5px; 
+  }
+
+.InstaIcon {
+    width: 20px;
+    height: 20px; 
+    margin-left: 5px; 
+  }
+
+ .logof {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+ }
+
+footer div {
+    text-align: center;
+}
+/* Footer */
