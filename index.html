@@ -1,38 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba bootstrap</title>
-<!-- Link CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
 
-<link rel="stylesheet" href="./CSS/style2.css">
-</head>
+  <body>
+<!-- Header -->
 
-<body>
-
-<!-- Header --><!--
-<header>
-    <img src="./Imagenes/Logo2.png" alt="Logo" class="Logo">
-
-    <!--
-<nav>
-    <ul>
-        <li><a href="#"></a> Inicio</li>
-        <li><a href="./Paginas/Nosotros.html">Nosotros</a></li>
-        <li><a href="./Paginas/Inmuebles.html">Inmuebles</a></li>
-        <li><a href="./Paginas/Servicios.html">Servicios</a></li>
-        <li><a href="./Paginas/Contacto.html">Contacto</a></li>
-    </ul>
-</nav>
-</header>
-<!-- Fin Header -->
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="./Imagenes/Logo2.png" alt="Logo" height="60">
+      <img src="../Imagenes/Logo2.png" alt="Logo" height="60">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -49,23 +31,18 @@
   </div>
 </nav>
 
-<!-- Carrousel-->
-<div class="texto6">
-  <h1>Bienvenido a Real Estate</h1>
-  <h2>Tu casa soñada te espera</h2>
- <!-- 
-</div id= "carrousel">
-<section class="carrouselactive">
-<img src="./Imagenes/Foto 1.jpg" alt="foto 1"
-class="foto1">
-<img src="./Imagenes/Foto 2.jpg" alt="Foto 2"
-class="foto2">
-<img src="./Imagenes/Foto 3.jpg" alt="Foto 3"
-class="foto3"> <br>
-</section>
+<!-- Fin Header -->
+
 <!-- Carrousel-->
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<h1>Lorem ipsum dolor sit amet consectetur adi</h1>
+
+<div id="carrousel" class="cslide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="./Imagenes/Foto 1.jpg" class="d-block w-100" alt="...">
@@ -77,33 +54,43 @@ class="foto3"> <br>
       <img src="./Imagenes/Foto 3.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
-
+<!-- Carrousel-->
 <!-- Productos Destacados-->
 <Section class="DestacadosT">
     <div class="Destacados">
-        <img src="./Imagenes/Inmueble 1.jpg" alt="Paisaje" class="Inmueble1">
-        <p class="texto1">Tenemos las mejores panoramicas</p>
+        <img src="./Imagenes/Inmueble 1.jpg" alt="Inmueble 1" class="Inmueble1">
+        <p class="texto1">Lorem ipsum dolor sit amet, consectetur</p>
       </div>
       
       <div class="Destacados">
-        <img src="./Imagenes/Inmueble 2.jpg" alt="Versatilidad" class="Inmueble2">
-        <p class="texto2">Nuestras opciones cuentan con la mejor seguridad</p>
+        <img src="./Imagenes/Inmueble 2.jpg" alt="Inmueble 2" class="Inmueble2">
+        <p class="texto2">Lorem ipsum dolor sit amet, consectetur</p>
       </div>
       
       <div class="Destacados">
-        <img src="./Imagenes/Inmueble 3.jpg" alt="Precio" class="Inmueble3">
-        <p class="texto3">Los mejores en el mercado en precio y respaldo</p>
+        <img src="./Imagenes/Inmueble 3.jpg" alt="Inmueble 3" class="Inmueble3">
+        <p class="texto3">Lorem ipsum dolor sit amet, consectetur</p>
       </div>
 </Section>
 <!-- Productos Destacados-->
 
 <!--Texto Introductorio -->
 <section class="Introductorio">
-<p> Real Estate promueve la sostenibilidad en sus proyectos de construcción con tecnologías de energía renovable y materiales de bajo impacto ambiental. 
-  Colaboramos con comunidades locales y trabajamos en la conservación del agua y la biodiversidad. 
-  Estamos comprometidos con el medio ambiente y un futuro sostenible.</p>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+  id est laborum.</p>
 </section>
 <!--Texto Introductorio -->
 
@@ -127,8 +114,12 @@ class="foto3"> <br>
 
 </footer>
 <!-- Footer-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-</body>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 
 </html>
