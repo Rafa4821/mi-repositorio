@@ -7,77 +7,65 @@ body {
 }
 
 
-   /* header*/ /*
-
-header  ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: end;
-  justify-content: space-evenly;
-    color: white;
-    list-style: none;
-}
- */
-header h1 {
-    font-size: medium;
-    text-align: justify;
-}
-
-.Logo {
-
-    width: 160px;
-    height: 100px;
-}
-
-header {
-    background-color: #292929;
-    display: flex;
-    
-}
-/* header*/
-
 /* Imagenes Index (Carrousel)*/
-section h1 {
-font-weight: lighter;
-}
-
-  
-  
-
-
 .carousel-inner {
 width: 800px;
 height: 400px;
-
 }
 
-.texto6 h1 h2{
+.texto6 h1{
   text-align: center;
   color: white;
   font-style: italic;
 }
+#carouselp .carousel-item img {
+  max-width: 100%;
+  height: auto; 
+}
 
-/* Imagenes Index (Carrousel)*/
-
-/* Imagenes Productos Destacados */
-.Inmueble1,
-  .Inmueble2,
-  .Inmueble3 { 
-    width: 300px;
-    height: 200px;
-  }
+#carouselp {
+  margin-bottom: 20px;
+  overflow: hidden; 
+}
 
   .DestacadosT {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+    padding: 0 20px; /* Agrega un espacio de relleno a los lados */
+  }
+  
+  .Destacados {
+    width: calc(33.33% - 20px); /* Calculamos el ancho de cada elemento considerando el margen */
+    margin-bottom: 20px; /* Agregamos espacio entre cada fila */
+  }
+  
+  .Destacados img {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .texto1,
+  .texto2,
+  .texto3 {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .Destacados {
+      width: 100%; 
+      margin-right: 0; 
+    }
   }
 
-
-    .Introductorio {
-    text-align: justify;
+  @media (max-width: 320px) {
+    .Destacados {
+      width: 100%; 
+      margin-right: 0; 
+    }
   }
-
+  
+  
   .Introductorio {
     color: white;
   }
@@ -91,6 +79,7 @@ height: 400px;
  }
  .quienessomosbl {
   display: flex;
+  flex-wrap: wrap;
  }
 
 .qsp {
@@ -119,10 +108,10 @@ height: 400px;
 .titservicio {
     text-align: center;
 }
-/* Titulo Servicios  */
+/* Titulo Servicios */
 
 
-/* Footer */
+/* Footer
 footer {
     background-color: #212529;
     color: white;
@@ -151,4 +140,39 @@ footer {
 footer div {
     text-align: center;
 }
+*/
+
+footer {
+  position: relative; /* Posicionamos de forma relativa para que el posicionamiento absoluto funcione correctamente */
+  background-color: #212529;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+.FaceIcon,
+.InstaIcon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.logof {
+  position: absolute; /* Posicionamos de forma absoluta */
+  bottom: 10px; /* Distancia desde la parte inferior */
+  right: 10px; /* Distancia desde la derecha */
+}
+
+.logof img {
+  width: 100px;
+  height: auto;
+}
+
+.copy {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
 /* Footer */
