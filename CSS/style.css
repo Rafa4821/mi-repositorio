@@ -48,13 +48,13 @@ body {
   .DestacadosT {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
-    padding: 0 20px; /* Agrega un espacio de relleno a los lados */
+    justify-content: space-between; 
+    padding: 0 20px; 
   }
   
   .Destacados {
-    width: calc(33.33% - 20px); /* Calculamos el ancho de cada elemento considerando el margen */
-    margin-bottom: 20px; /* Agregamos espacio entre cada fila */
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
   }
   
   .Destacados img {
