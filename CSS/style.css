@@ -92,37 +92,110 @@ body {
 /* Imagenes Productos Destacados */
 
 /* Quienes Somos */
- .quienessomos {
-    width: 600px;
-    height: 250px;
-    
- }
- .quienessomosbl {
+
+.quienessomosbl {
   display: flex;
-  flex-wrap: wrap;
- }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.titnos {
+  text-align: center;
+  font-weight: bold;
+  color: white
+}
 
 .qsp {
-    text-align: center;
+  text-align:justify;
+  color: white;
 }
+
+.quienessomos-wrapper {
+  width: 100%; 
+  max-width: 1200px; 
+}
+
+.quienessomos-imagen {
+  width: 100%; 
+}
+
+.quienessomos-imagen img {
+  width: 100%;
+  height: 400px; 
+}
+
+.video-container {
+  width: 100%;
+  max-width: 560px; 
+  height: 300px; 
+  margin-top: 20px; 
+  overflow: hidden; 
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 576px) {
+  .video-container {
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    position: relative; 
+    margin-top: 20px;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+  }
+}
+
 /* Quienes Somos */
 
+
 /* Imagenes de Display  */
-.DisplayInmueble1,
-.DisplayInmueble2,
-.DisplayInmueble3,
-.DisplayInmueble4 {
-    width: 300px;
-    height: 200px;
+
+.display {
+  width: 100%;
+  max-width: 300px; 
+  margin: 10px auto; 
+  margin-bottom: 20px; 
+  color: white;
+}
+
+.display img {
+  width: 100%; 
+  height: auto; 
+}
+
+.disptex {
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
 .display1 {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  padding-left: 200px;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px; 
+  padding: 0 10px; 
 }
-/* Imagenes de Display  */
+
+@media (max-width: 768px) {
+  .display1 {
+      grid-template-columns: repeat(1, 1fr); 
+}
+
+}
 
 /* Titulo Servicios  */
 .titservicio {
@@ -151,7 +224,7 @@ footer {
 
 .logof {
   position: absolute; 
-  bottom: 30px; 
+  bottom: 55px; 
   right: 10px; 
 }
 
