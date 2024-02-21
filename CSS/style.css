@@ -87,6 +87,7 @@ body {
   .Introductorio {
     color: white;
     text-align: justify;
+    margin: 30px;
 
   }
 /* Imagenes Productos Destacados */
@@ -179,9 +180,10 @@ body {
 }
 
 .disptex {
-  text-align: center;
+  text-align: justify;
   color: white;
   font-weight: bold;
+  margin: 30px;
 }
 
 .display1 {
@@ -202,6 +204,8 @@ body {
 .titservicio {
   text-align: center;
   margin-bottom: 20px;
+  margin: 20px;
+  color: white;
 }
 
 /* Contenedor del video */
@@ -225,6 +229,7 @@ body {
 
 .contenido {
   text-align: center;
+  color: white;
 }
 
 .contacto {
@@ -233,6 +238,7 @@ body {
 
 .contacto p {
   margin-bottom: 10px; 
+  color: white;
 }
 
 .contacto a {
@@ -244,7 +250,7 @@ body {
   text-decoration: none; 
   border-radius: 5px; 
   width: 200px; 
-  margin: 0 auto;
+  margin: 15px auto;
   transition: color 0.3s;
 }
 
@@ -291,6 +297,7 @@ body {
 .Formularios input[type="submit"] {
   margin-right: 10px;
 }
+
 /* Estilos del mapa */
 .Mapa {
   width: 100%;
@@ -299,6 +306,8 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  text-align: center;
 }
 .Mapa iframe {
   width: 100%;
