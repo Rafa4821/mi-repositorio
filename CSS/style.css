@@ -170,6 +170,7 @@ body {
   margin: 10px auto; 
   margin-bottom: 20px; 
   color: white;
+  text-align: center;
 }
 
 .display img {
@@ -199,9 +200,118 @@ body {
 
 /* Titulo Servicios  */
 .titservicio {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contenedor del video */
+
+.video-container {
+  position: relative;
+  width: 100%; 
+  max-height: 400px; 
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.contenido {
+  text-align: center;
+}
+
+.contacto {
+  margin-top: 20px;
+}
+
+.contacto p {
+  margin-bottom: 10px; 
+}
+
+.contacto a {
+  display: block; 
+  text-align: center; 
+  background-color: #54575a; 
+  color: #ffffff; 
+  padding: 10px; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  width: 200px; 
+  margin: 0 auto;
+  transition: color 0.3s;
+}
+
+.contacto a:hover {
+  background-color: #c79539;
 }
 /* Titulo Servicios */
+
+
+/* Estilos generales */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Estilos del formulario */
+.Formularios {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.Formularios input[type="text"],
+.Formularios input[type="email"],
+.Formularios input[type="tel"],
+.Formularios textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.Formularios textarea {
+  height: 100px;
+}
+.Formularios input[type="checkbox"],
+.Formularios input[type="submit"] {
+  margin-right: 10px;
+}
+/* Estilos del mapa */
+.Mapa {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Mapa iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .Formularios,
+  .Mapa {
+      max-width: 90%;
+  }
+}
 
 
 /* Footer */
