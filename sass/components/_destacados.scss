@@ -1,18 +1,32 @@
-
 .DestacadosT {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-    padding: 0 20px; 
-  }
-  
-  .Destacados {
-    width: calc(33.33% - 20px); 
-    margin-bottom: 20px; 
-  }
-  
-  .Destacados img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  padding: 0 20px; 
+}
+
+.Destacados {
+  width: calc(33.33% - 20px); 
+  margin-bottom: 20px; 
+
+  img {
     width: 100%;
     height: 250px;
   }
-  
+
+  @media (max-width: 768px) {
+    width: 100%; 
+    margin-right: 0; 
+  }
+
+  @media (max-width: 320px) {
+    width: 100%; 
+    margin-right: 0; 
+  }
+}
+
+.Introductorio {
+  color: white;
+  text-align: justify;
+  margin: 30px;
+}

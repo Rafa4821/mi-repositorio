@@ -1,18 +1,37 @@
 
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
-  .footer a {
+footer {
+  position: relative;
+  background-color: #212529;
+  color: white;
+  text-align: left;
+  padding: 20px;
+
+  a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    font-weight: bold;
   }
-  
+
+  .FaceIcon,
+  .InstaIcon {
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+  }
+
+  .logof {
+    position: absolute; 
+    bottom: 55px; 
+    right: 10px; 
+
+    img {
+      width: 100px;
+      height: auto;
+    }
+  }
+
+  .copy {
+    margin-top: 10px;
+    text-align: center;
+  }
+}

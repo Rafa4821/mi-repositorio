@@ -1,0 +1,31 @@
+.display {
+    width: 100%;
+    max-width: 300px; 
+    margin: 50px auto; 
+    margin-bottom: 20px; 
+    color: white;
+    text-align: center;
+
+    img {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+.disptex {
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.display1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
+    padding: 0 10px; 
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}

@@ -1,0 +1,25 @@
+.contacto {
+    margin-top: 20px;
+
+    p {
+        margin-bottom: 10px; 
+        color: white;
+    }
+
+    a {
+        display: block; 
+        text-align: center; 
+        background-color: #54575a; 
+        color: #ffffff; 
+        padding: 10px; 
+        text-decoration: none; 
+        border-radius: 5px; 
+        width: 200px; 
+        margin: 15px auto;
+        transition: color 0.3s;
+
+        &:hover {
+            background-color: #c79539;
+        }
+    }
+}

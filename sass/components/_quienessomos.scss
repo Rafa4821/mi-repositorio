@@ -1,0 +1,21 @@
+.quienessomosbl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.quienessomos-wrapper {
+    width: 100%; 
+    max-width: 1200px; 
+}
+
+.quienessomos-imagen {
+    width: 100%; 
+
+    img {
+        width: 100%;
+        height: 300px; 
+    }
+}
