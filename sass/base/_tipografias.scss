@@ -1,10 +1,10 @@
 .tprin {
     text-align: center;
-    color: white;
+    color: $font-color;
     margin-top: 20px;
 
     span {
-        color: #c79539;
+        color: $logo-color;
         font-weight: bold;
     }
 }
@@ -13,29 +13,29 @@
 .texto2,
 .texto3 {
     text-align: center;
-    color: white;
+    color: $font-color;
 }
 
 .titnos {
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: $font-color;
 }
 
 .qsp {
     text-align:justify;
-    color: white;
+    color: $font-color;
 }
 
 .titservicio {
     text-align: center;
     margin-bottom: 20px;
     margin: 20px;
-    color: white;
+    color: $font-color;
 }
 
 .contenido {
     text-align: center;
-    color: white;
+    color: $font-color;
     margin: 15px;
 }

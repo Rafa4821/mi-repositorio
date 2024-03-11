@@ -1,11 +1,11 @@
-.DestacadosT {
+.destacadosT {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
   padding: 0 20px; 
 }
 
-.Destacados {
+.destacados {
   width: calc(33.33% - 20px); 
   margin-bottom: 20px; 
 
@@ -25,8 +25,8 @@
   }
 }
 
-.Introductorio {
-  color: white;
+.introductorio {
+  color: $font-color;
   text-align: justify;
   margin: 30px;
 }

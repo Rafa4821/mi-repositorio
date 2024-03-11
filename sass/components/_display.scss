@@ -2,7 +2,7 @@
     width: 100%;
     margin: 50px auto; 
     margin-bottom: 20px; 
-    color: white;
+    color: $font-color;
     text-align: center;
     position: relative;
 
@@ -21,7 +21,7 @@
 
 .disptex {
     text-align: justify;
-    color: white;
+    color: $font-color;
     font-weight: bold;
     margin: 30px;
 }
@@ -43,7 +43,7 @@
     left: 0;
     right: 0;
     background: rgba(0,0,0,0.5);
-    color: white;
+    color: $font-color;
     transition: 0.5s ease;
     opacity: 0;
     padding: 20px;
@@ -53,14 +53,14 @@
     a {
         display: inline-block;
         margin-top: 20px;
-        background-color: #c79539;
-        color: white;
+        background-color: $logo-color;
+        color: $font-color;
         padding: 10px 20px;
         text-decoration: none;
         transition: background-color 0.5s ease;
 
         &:hover {
-            background-color: #c79539;
+            background-color: $logo-color;
         }
     }
 }
