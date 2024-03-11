@@ -47,19 +47,19 @@ body {
 /*Carousel*/
 
 
-  .DestacadosT {
+  .destacadosT {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
     padding: 0 20px; 
   }
   
-  .Destacados {
+  .destacados {
     width: calc(33.33% - 20px); 
     margin-bottom: 20px; 
   }
   
-  .Destacados img {
+  .destacados img {
     width: 100%;
     height: 250px;
   }
@@ -72,21 +72,21 @@ body {
   }
   
   @media (max-width: 768px) {
-    .Destacados {
+    .destacados {
       width: 100%; 
       margin-right: 0; 
     }
   }
 
   @media (max-width: 320px) {
-    .Destacados {
+    .destacados {
       width: 100%; 
       margin-right: 0; 
     }
   }
   
   
-  .Introductorio {
+  .introductorio {
     color: white;
     text-align: justify;
     margin: 30px;
@@ -313,7 +313,7 @@ body {
   align-items: center;
 }
 /* Estilos del formulario */
-.Formularios {
+.formularios {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -322,30 +322,30 @@ body {
   max-width: 600px;
   margin-bottom: 20px;
 }
-.Formularios p {
+.formularios p {
   font-weight: bold;
 }
 
-.Formularios input[type="text"],
-.Formularios input[type="email"],
-.Formularios input[type="tel"],
-.Formularios textarea {
+.formularios input[type="text"],
+.formularios input[type="email"],
+.formularios input[type="tel"],
+.formularios textarea {
   width: calc(100% - 20px);
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.Formularios textarea {
+.formularios textarea {
   height: 100px;
 }
-.Formularios input[type="checkbox"],
-.Formularios input[type="submit"] {
+.formularios input[type="checkbox"],
+.formularios input[type="submit"] {
   margin-right: 10px;
 }
 
 /* Estilos del mapa */
-.Mapa {
+.mapa {
   width: 100%;
   max-width: 600px;
   background-color: #fff;
@@ -355,15 +355,15 @@ body {
   font-weight: bold;
   text-align: center;
 }
-.Mapa iframe {
+.mapa iframe {
   width: 100%;
   height: 300px;
   border: none;
   border-radius: 5px;
 }
 @media (max-width: 768px) {
-  .Formularios,
-  .Mapa {
+  .formularios,
+  .mapa {
       max-width: 90%;
   }
 }
