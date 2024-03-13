@@ -376,7 +376,6 @@ body {
 
 /* Footer */
 
-
 footer {
   position: relative;
   background-color: #212529;
@@ -389,6 +388,11 @@ footer a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
 }
 
 .faceicon,
@@ -409,9 +413,9 @@ footer a {
   height: auto;
 }
 
+
 .copy {
   margin-top: 10px;
   text-align: center;
 }
-
 /* Footer */
