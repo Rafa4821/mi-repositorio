@@ -1,21 +1,26 @@
 
 footer {
   position: relative;
-  background-color: $headfot-color;
-  color: $font-color;
+  background-color: #212529;
+  color: white;
   text-align: left;
   padding: 20px;
 
   a {
-    color: $font-color;
+    color: white;
     text-decoration: none;
     font-weight: bold;
   }
 
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+
   .faceicon,
   .instaicon {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     margin: 0 5px;
   }
 
@@ -29,9 +34,9 @@ footer {
       height: auto;
     }
   }
+}
 
-  .copy {
-    margin-top: 10px;
-    text-align: center;
-  }
+.copy {
+  margin-top: 10px;
+  text-align: center;
 }
