@@ -1,20 +1,22 @@
+//Base
 
-// Base
-@import 'base/variables';
 @import 'base/reset';
-@import 'base/tipografias';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/base';
 
 // Components
+
 @import 'components/carousel';
+@import 'components/contacto';
 @import 'components/destacados';
+@import 'components/display';
 @import 'components/quienessomos';
 @import 'components/video-container';
-@import 'components/display';
-@import 'components/contacto';
 
-// Layout
+// Layouts
+
 @import 'layouts/header';
-@import 'layouts/footer';
 @import 'layouts/formularios';
-
+@import 'layouts/footer';
 
