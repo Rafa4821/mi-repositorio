@@ -1,7 +1,73 @@
-%button-shared {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.5s ease;
+
+@import 'variables';
+
+%font-and-color {
+    font-family: $fm-font;
+    color: $font-color;
+}
+
+body {
+    @extend %font-and-color;
+    background-color: $bg-color;
+    margin: 0;
+}
+
+.tprin {
+    @extend %font-and-color;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tprin span {
+    color: $logo-color;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    width: auto;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
+}
+
+#carouselp {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+@media (max-width: 576px) {
+    #carouselp {
+        margin-bottom: 10px;
+    }
+}
+
+.destacadosT {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 0 20px; 
+}
+
+.destacados {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+}
+
+.destacados img {
+    width: 100%;
+    height: 250px;
+}
+
+.texto1,
+.texto2,
+.texto3 {
+    @extend %font-and-color;
+    text-align: center;
 }
