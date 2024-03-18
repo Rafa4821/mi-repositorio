@@ -6,12 +6,6 @@
     color: $font-color;
 }
 
-body {
-    @extend %font-and-color;
-    background-color: $bg-color;
-    margin: 0;
-}
-
 .tprin {
     @extend %font-and-color;
     text-align: center;

@@ -51,14 +51,9 @@ body {
 
 .texto1,
 .texto2,
-.texto3, .tprin, body {
+.texto3, .tprin {
   font-family: Arial, sans-serif;
   color: white;
-}
-
-body {
-  background-color: gray;
-  margin: 0;
 }
 
 .tprin {
