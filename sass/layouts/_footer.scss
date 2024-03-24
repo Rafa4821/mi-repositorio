@@ -1,9 +1,7 @@
 
 footer {
-  position: relative;
   background-color: #212529;
   color: white;
-  text-align: left;
   padding: 20px;
 
   a {
@@ -12,9 +10,11 @@ footer {
     font-weight: bold;
   }
 
-  nav ul {
-    list-style: none;
-    padding: 0;
+  .footer-menu {
+    li {
+      list-style: none;
+      padding: 0;
+    }
   }
 
   .faceicon,
@@ -24,19 +24,74 @@ footer {
     margin: 0 5px;
   }
 
-  .logof {
-    position: absolute; 
-    bottom: 55px; 
-    right: 10px; 
+  .logo {
+    width: 100px;
+    height: auto;
+    order: 4;
+    align-self: flex-end;
+  }
 
-    img {
-      width: 100px;
-      height: auto;
+  .footer-heading {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .copy {
+    text-align: center;
+    order: 1;
+    width: 100%;
+
+    a {
+      color: #fff;
     }
   }
-}
 
-.copy {
-  margin-top: 10px;
-  text-align: center;
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    order: 2;
+    width: 100%;
+  }
+
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+
+    button {
+      margin-left: 5px;
+    }
+
+    input {
+      flex-grow: 1;
+      margin-right: 5px;
+      margin: 5px 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-subscribe {
+      flex-direction: column;
+    }
+  }
+
+  .footer-heading {
+    margin: 5px 0;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
 }

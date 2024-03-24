@@ -392,41 +392,145 @@ body {
     max-width: 90%;
   }
 }
-footer {
-  position: relative;
-  background-color: #212529;
-  color: white;
-  text-align: left;
+
+.politicas-container {
+  max-width: 960px;
+  margin: 0 auto;
   padding: 20px;
 }
-footer a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-footer nav ul {
-  list-style: none;
-  padding: 0;
-}
-footer .faceicon,
-footer .instaicon {
-  width: 40px;
-  height: 40px;
-  margin: 0 5px;
-}
-footer .logof {
-  position: absolute;
-  bottom: 55px;
-  right: 10px;
-}
-footer .logof img {
-  width: 100px;
-  height: auto;
+
+.politicas {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 
-.copy {
-  margin-top: 10px;
-  text-align: center;
+.politicas h1, .politicas h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.politicas p {
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  main {
+    width: 75%;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  main {
+    width: 70%;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  main {
+    width: 65%;
+  }
+}
+
+
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .footer-menu li {
+    list-style: none;
+    padding: 0;
+}
+
+footer .faceicon,
+footer .instaicon {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+footer .logo {
+    width: 100px;
+    height: auto;
+    order: 4;
+    align-self: flex-end;
+}
+
+footer .footer-heading {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer .footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .copy {
+    text-align: center;
+    order: 1;
+    width: 100%;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    order: 2;
+    width: 100%;
+}
+
+footer .footer-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+footer .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    footer .footer-subscribe {
+        flex-direction: column;
+    }
+}
+
+footer .footer-subscribe button {
+  margin-left: 5px;
+}
+
+footer .footer-subscribe input {
+    flex-grow: 1;
+    margin-right: 5px;
+    margin: 5px 0;
+}
+
+footer .footer-heading {
+    margin: 5px 0;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+footer .copy a {
+    color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
