@@ -336,7 +336,8 @@ body {
   max-width: 600px;
   margin: 20px auto;
 }
-.formularios .container {
+
+.container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -344,6 +345,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .formularios p {
   font-weight: bold;
 }
@@ -439,78 +441,86 @@ body {
 
 
 footer {
-    background-color: #212529;
-    color: white;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Añade espacio entre los elementos */
+  background-color: #212529;
+  color: white;
+  padding: 20px;
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer .footer-menu li {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 footer .faceicon,
 footer .instaicon {
-    width: 40px;
-    height: 40px;
-    margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
 }
 
 footer .logo {
-    width: 100px;
-    height: auto;
-    order: 4;
-    align-self: flex-end;
+  width: 100px;
+  height: auto;
+  order: 3;
+  margin-left: auto; /* Mueve el logo a la derecha */
 }
 
 footer .footer-heading {
-    margin-bottom: 20px;
-    font-weight: bold;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 footer .footer-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%; /* Hace que .footer-section ocupe todo el ancho */
 }
 
 footer .copy {
-    text-align: center;
-    order: 1;
-    width: 100%;
+  text-align: center;
+  width: 100%; /* Hace que .copy ocupe todo el ancho */
 }
 
 footer .social-icons {
-    display: flex;
-    justify-content: flex-end;
-    order: 2;
-    width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  order: 4;
+  margin-left: auto; /* Mueve los iconos sociales a la derecha */
 }
 
 footer .footer-column {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 footer .footer-subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  max-width: 80%; /* Limita el ancho del área del boletín de noticias */
+  width: 100%;
+  margin-bottom: 20px; /* Agrega separación en la parte inferior */
 }
 
 @media (max-width: 768px) {
-    footer .footer-subscribe {
-        flex-direction: column;
-    }
+  footer .footer-subscribe {
+    flex-direction: column;
+    margin-bottom: 20px; /* Agrega separación en la parte inferior en pantallas pequeñas */
+  }
 }
 
 footer .footer-subscribe button {
@@ -518,19 +528,42 @@ footer .footer-subscribe button {
 }
 
 footer .footer-subscribe input {
-    flex-grow: 1;
-    margin-right: 5px;
-    margin: 5px 0;
+  flex-grow: 1;
+  margin-right: 5px;
+  margin: 5px 0;
 }
 
 footer .footer-heading {
-    margin: 5px 0;
-    margin-bottom: 15px;
-    margin-top: 0;
+  margin: 5px 0;
+  margin-bottom: 15px;
+  margin-top: 0;
 }
 
 footer .copy a {
-    color: #fff;
+  color: #fff;
 }
 
+footer .footer-section:first-child {
+  order: 1;
+}
+
+footer .footer-section:last-child {
+  order: 2;
+}
+
+footer .logo {
+  order: 3;
+}
+
+footer .social-icons {
+  order: 4;
+}
+
+footer .copy {
+  order: 5;
+}
+
+footer .politicas {
+  order: 6;
+}
 /*# sourceMappingURL=style.css.map */
