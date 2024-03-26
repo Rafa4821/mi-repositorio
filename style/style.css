@@ -420,21 +420,21 @@ body {
 
 
 @media only screen and (min-width: 768px) {
-  main {
+  .politicas-container {
     width: 75%;
   }
 }
 
 
 @media only screen and (min-width: 992px) {
-  main {
+  .politicas-container {
     width: 70%;
   }
 }
 
 
 @media only screen and (min-width: 1200px) {
-  main {
+  .politicas-container {
     width: 65%;
   }
 }
