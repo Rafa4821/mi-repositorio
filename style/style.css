@@ -194,6 +194,13 @@ body {
   margin: 30px;
 }
 
+.titulo-inmuebles {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
 .display {
   width: 100%;
   margin: 50px auto;
@@ -325,6 +332,14 @@ body {
   color: white;
   text-decoration: none;
   margin: 0 10px;
+}
+
+.tex-contact h1 {
+  color: white;
+  font-size: 2.5em; 
+  text-align: center;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
 }
 
 .formularios {
