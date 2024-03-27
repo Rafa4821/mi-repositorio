@@ -1,5 +1,13 @@
+.tex-contact h1 {
+  color: $font-color;
+  font-size: 2.5em; 
+  text-align: center;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
 .formularios {
-  background-color: #fff;
+  background-color: $font-color;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -44,7 +52,7 @@
 .mapa {
   width: 100%;
   max-width: 600px;
-  background-color: #fff;
+  background-color: $font-color;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
