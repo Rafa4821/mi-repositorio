@@ -337,14 +337,14 @@ body {
 
 .tex-contact h1 {
   color: white;
-  font-size: 2.5em; 
+  font-size: 2.5em;
   text-align: center;
-  margin-top: 20px; 
-  margin-bottom: 20px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .formularios {
-  background-color: #fff;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -352,8 +352,7 @@ body {
   max-width: 600px;
   margin: 20px auto;
 }
-
-.container {
+.formularios .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -361,7 +360,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 .formularios p {
   font-weight: bold;
 }
@@ -388,7 +386,6 @@ body {
   background-color: white;
   border-color: black;
 }
-
 .btn-primary:hover {
   color: black;
   background-color: #c79539;
@@ -398,7 +395,7 @@ body {
 .mapa {
   width: 100%;
   max-width: 600px;
-  background-color: #fff;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -422,52 +419,6 @@ body {
     max-width: 90%;
   }
 }
-
-.politicas-container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.politicas {
-  background-color: #fff;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-}
-
-.politicas h1, .politicas h2 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.politicas p {
-  margin-bottom: 10px;
-}
-
-
-@media only screen and (min-width: 768px) {
-  .politicas-container {
-    width: 75%;
-  }
-}
-
-
-@media only screen and (min-width: 992px) {
-  .politicas-container {
-    width: 70%;
-  }
-}
-
-
-@media only screen and (min-width: 1200px) {
-  .politicas-container {
-    width: 65%;
-  }
-}
-
-
 footer {
   display: flex;
   flex-direction: column;
@@ -477,37 +428,31 @@ footer {
   color: white;
   padding: 20px;
 }
-
 footer a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-
 footer .footer-menu li {
   list-style: none;
   padding: 0;
 }
-
 footer .faceicon,
 footer .instaicon {
   width: 40px;
   height: 40px;
   margin: 0 5px;
 }
-
 footer .logo {
   width: 100px;
   height: auto;
   order: 3;
   margin-left: auto;
 }
-
 footer .footer-heading {
   margin-bottom: 20px;
   font-weight: bold;
 }
-
 footer .footer-section {
   display: flex;
   justify-content: space-between;
@@ -515,25 +460,30 @@ footer .footer-section {
   flex-wrap: wrap;
   width: 100%;
 }
-
+footer .footer-section:first-child {
+  order: 1;
+}
+footer .footer-section:last-child {
+  order: 2;
+}
 footer .copy {
   text-align: center;
   width: 100%;
 }
-
+footer .copy a {
+  color: white;
+}
 footer .social-icons {
   display: flex;
   justify-content: flex-end;
   order: 4;
   margin-left: auto;
 }
-
 footer .footer-column {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
-
 footer .footer-subscribe {
   display: flex;
   flex-direction: column;
@@ -541,57 +491,38 @@ footer .footer-subscribe {
   gap: 10px;
   max-width: 80%;
   width: 100%;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
-
 @media (max-width: 768px) {
   footer .footer-subscribe {
     flex-direction: column;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
 }
-
 footer .footer-subscribe button {
   margin-left: 5px;
 }
-
 footer .footer-subscribe input {
   flex-grow: 1;
   margin-right: 5px;
   margin: 5px 0;
 }
-
 footer .footer-heading {
   margin: 5px 0;
   margin-bottom: 15px;
   margin-top: 0;
 }
-
-footer .copy a {
-  color: #fff;
-}
-
-footer .footer-section:first-child {
-  order: 1;
-}
-
-footer .footer-section:last-child {
-  order: 2;
-}
-
 footer .logo {
   order: 3;
 }
-
 footer .social-icons {
   order: 4;
 }
-
 footer .copy {
   order: 5;
 }
-
 footer .politicas {
   order: 6;
 }
+
 /*# sourceMappingURL=style.css.map */
