@@ -49,6 +49,18 @@
   }
 }
 
+.btn-primary {
+  color: black;
+  background-color: $font-color;
+  border-color: black;
+
+  &:hover {
+    color: black;
+    background-color: $logo-color;
+    border-color: $headfot-color;
+  }
+}
+
 .mapa {
   width: 100%;
   max-width: 600px;

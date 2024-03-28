@@ -382,6 +382,18 @@ body {
   margin-right: 10px;
 }
 
+.btn-primary {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: #c79539;
+  border-color: #212529;
+}
+
 .mapa {
   width: 100%;
   max-width: 600px;
@@ -459,7 +471,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between; /* Añade espacio entre los elementos */
+  justify-content: space-between;
   background-color: #212529;
   color: white;
   padding: 20px;
@@ -487,7 +499,7 @@ footer .logo {
   width: 100px;
   height: auto;
   order: 3;
-  margin-left: auto; /* Mueve el logo a la derecha */
+  margin-left: auto;
 }
 
 footer .footer-heading {
@@ -500,19 +512,19 @@ footer .footer-section {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  width: 100%; /* Hace que .footer-section ocupe todo el ancho */
+  width: 100%;
 }
 
 footer .copy {
   text-align: center;
-  width: 100%; /* Hace que .copy ocupe todo el ancho */
+  width: 100%;
 }
 
 footer .social-icons {
   display: flex;
   justify-content: flex-end;
   order: 4;
-  margin-left: auto; /* Mueve los iconos sociales a la derecha */
+  margin-left: auto;
 }
 
 footer .footer-column {
@@ -526,15 +538,15 @@ footer .footer-subscribe {
   flex-direction: column;
   align-items: start;
   gap: 10px;
-  max-width: 80%; /* Limita el ancho del área del boletín de noticias */
+  max-width: 80%;
   width: 100%;
-  margin-bottom: 20px; /* Agrega separación en la parte inferior */
+  margin-bottom: 20px; 
 }
 
 @media (max-width: 768px) {
   footer .footer-subscribe {
     flex-direction: column;
-    margin-bottom: 20px; /* Agrega separación en la parte inferior en pantallas pequeñas */
+    margin-bottom: 20px; 
   }
 }
 

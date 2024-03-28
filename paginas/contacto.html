@@ -59,9 +59,27 @@
       <input type="checkbox" name="Publicidad_y_Ofertas" id="Verificacion">
       <label for="Verificacion">Términos y Condiciones</label>
       
-      <input type="submit" value="Enviar">
+      <input type="button" class="btn btn-primary" value="Enviar" data-bs-toggle="modal" data-bs-target="#exampleModal">
   </div>
   <!-- Formulario de contacto -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mensaje Enviado</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Tu mensaje ha sido enviado con éxito. Nos pondremos en contacto contigo lo antes posible.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Mapa de ubicación -->
   <div class="mapa">
